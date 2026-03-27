@@ -1,0 +1,7 @@
+node_modules/
+reports/screenshots/
+reports/test-results.json
+reports/dashboard-report-*.html
+test-results/
+playwright-report/
+.env*
