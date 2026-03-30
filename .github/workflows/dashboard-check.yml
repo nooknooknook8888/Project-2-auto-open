@@ -1,11 +1,8 @@
 name: ThaiCleftLink Dashboard Health Check
 
 on:
-  # Manual trigger (for testing)
+  # Triggered daily at 08:30 Bangkok time by cron-job.org
   workflow_dispatch:
-  # Auto run daily at 08:30 Bangkok time (01:30 UTC)
-  schedule:
-    - cron: '30 1 * * *'
 
 jobs:
   health-check:
